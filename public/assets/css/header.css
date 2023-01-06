@@ -1,0 +1,253 @@
+/* Header Component */
+.header {
+    font-family: "Poppins", Sans-serif;
+    /* -webkit-filter: invert(0.9); */
+    background-image: url('../images/34944742-seamless-background-washing-machine.webp');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.header h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.header .overlay {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #000000E8 0%, #03072B 100%);
+    opacity: 0.9;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.header a{
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    fill: #000000;
+    color: #000000;
+    background-color: #FFDF00;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 1px 0px #acabab;
+}
+/* End Header Component */
+
+/* Reason Component */
+.reason {
+    background-color: #eeeeee;
+}
+.reason h2 {
+    font-size: 24px;
+}
+/* End Reason Component */
+
+/* Introduction Component */
+.introduction h1 {
+    font-size: 30px;
+}
+.introduction h2 {
+    color: #0C0C0C;
+    font-size: 22px;
+    font-weight: normal;
+}
+/* End Introduction Component */
+
+/* Documentation Component */
+.documentation h1 {
+    font-size: 30px;
+}
+.documentation hr.solid {
+    border-top: 2px solid #0C0C0C;
+    width: 125px;
+}
+/* End Documentation Component */
+
+/* Content Component */
+.content h1 {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+
+.content span.yellow-highlight{
+    font-weight: bolder;
+    /* background: linear-gradient(104deg, rgba(130, 255, 173,0) 0.9%, rgba(130, 255, 173,1.25) 2.4%, rgba(130, 255, 173,0.5) 5.8%, rgba(130, 255, 173,0.1) 93%, rgba(130, 255, 173,0.7) 96%, rgba(130, 255, 1732,0) 98%), linear-gradient(183deg, rgba(130, 255, 173,0) 0%, rgba(130, 255, 173,0.3) 7.9%, rgba(130, 255, 173,0) 15%); */
+    background-color: #fbff00;
+    /* padding: 0.6em 13.7px; */
+    margin: 0;
+    /* border-radius: 7.5px; */
+    /* text-shadow: -12px 12px 9.8px rgba(130, 255, 173,0.7), 21px -18.1px 7.3px rgba(255, 255, 255,1), -18.1px -27.3px 30px rgba(255, 255, 255,1); */
+}
+
+.content dt{
+    font-family: "Roboto", Sans-serif;
+    font-size: 23px;
+    font-weight: 400;
+}
+/* End Content Component */
+
+/* Audiens Component */
+.audiens {
+    background-color: #2D3450;
+}
+.audiens h2{
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+.audiens dt{
+    font-size: 22px;
+    font-weight: 400;
+}
+/* End Audiens Component */
+
+/* Pembicara Component */
+.pembicara hr.solid {
+    border-top: 2px solid #0C0C0C;
+    width: 125px;
+}
+.pembicara img{
+    border-radius: 50%;
+    border: 3px solid #03072B;
+}
+.pembicara h1 {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+.pembicara h2{
+    color: #000000;
+    font-size: 22px;
+    font-weight: 400;
+}
+.pembicara h2.name{
+    font-size: 24px;
+}
+/* End Pembicara Component */
+
+/* Alasan Component */
+.alasan {
+    background-color: #2D3450;
+}
+
+.alasan .icon-fill{
+    font-size: 60px;
+    fill: #FFE500;
+    color: #FFE500;
+    border-color: #FFE500;
+}
+
+.alasan h1{
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+
+.alasan h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+/* End Alasan Component */
+
+/* Comment Component */
+.comment .card{
+    border-width: 20px;
+    border-color: #eeee;
+    background-color: #eeee;
+}
+.comment .card h1{
+    color: #282727;
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.comment .tagline h1{
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4em;
+}
+/* End Comment Component */
+
+/* Price Component */
+.price {
+    background-color: #eeeeee;
+}
+.price h2 {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.price .card{
+    background-color: #2D3450;
+}
+
+.price .card.inner{
+    background-color: #fbff00;
+}
+
+.price .card.inner h3 {
+    color: #000000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+/* End Price Component */
+
+/* Schedule Component */
+.schedule h1 {
+    color: #000000;
+    font-family: "Hind Vadodara", Sans-serif;
+    font-size: 43px;
+    font-weight: bold;
+}
+.schedule h2 {
+    color: #0C0C0C;
+    font-family: "Roboto", Sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+.schedule .card {
+    background-color: #EEEEEE;
+}
+.schedule hr.solid {
+    border-top: 2px solid #0C0C0C;
+    width: 125px;
+}
+.schedule a{
+    font-family: "Lato", Sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    fill: #000000;
+    color: #000000;
+    background-color: #FFDF00;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: 5px 5px 1px 0px #acabab;
+}
+/* End Schedule Component */
+
+/* Footer Component */
+.footer {
+    background-color: #000000;
+}
+/* End Footer Component */
